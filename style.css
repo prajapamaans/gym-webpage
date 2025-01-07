@@ -1,0 +1,143 @@
+body {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: absolute; */
+    height: 590px;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+
+}
+
+.header {
+    color: white;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+    position: absolute;
+    left: 5x;
+    top: 5px;
+    width: 20%;
+    height: 33%;
+
+
+}
+
+.left img {
+    position: absolute;
+    left: 23px;
+    top: 10px;
+    width: 60px;
+    padding: 10px;
+    height: 50px;
+    background: none;
+    border-radius: 35px;
+}
+
+.left div {
+    text-align: center;
+    text-decoration: overline;
+}
+
+.mid {
+    display: block;
+    /* border: 2px solid green; */
+    margin: 1px auto;
+    width: 40%;
+}
+
+.right {
+    display: inline;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 34px;
+    top: 15px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    /* font-style: ; */
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(177, 243, 189);
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid rgb(177, 243, 189);
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+
+.btn:hover {
+    background-color: rgb(177, 243, 189);
+    color: blue;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 106px;
+    padding: 75px;
+    border-radius: 28px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    right: 180px;
+    top: 27px;
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 490px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+    border-radius: 8px;
+}
+
+.container button {
+    display: block;
+    font-family: sans-serif;
+
+    width: 490px;
+    height: 40px;
+    margin: 20px;
+    font-size: 20px;
+    float: center;
+}
